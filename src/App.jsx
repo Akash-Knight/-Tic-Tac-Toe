@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className='h-screen'>
-      <Navbar className="" />
+      <Navbar/>
       <div className="overflow-hidden p-4 flex flex-col items-center">
 
         {!gameStarted ? (
